@@ -417,14 +417,41 @@ h4 {
 }
 
 
+/* =========================
+   AJUSTES MOBILE
+   ========================= */
 @media (max-width: 768px) {
 
-    .background-wrapper,
-    .main,
-    section {
-        width: 100%;
-        max-width: 100%;
-        margin: 0;
+    body {
+        overflow-x: hidden;
+    }
+
+    .titulo-local {
+        font-size: 34px;
+        margin-bottom: 20px;
+    }
+
+    main {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .lista-magalu img {
+        height: 280px;
+        padding: 16px;
+    }
+
+    .text-center img {
+        max-width: 260px;
+        padding: 12px;
+    }
+
+    .logo-top-left img {
+        height: 110px;
+    }
+
+    h2.font-rounded {
+        font-size: 24px;
     }
 
 }
